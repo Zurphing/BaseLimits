@@ -4,7 +4,7 @@ assets:
 - name: 03system.bin
   method: binarc
   source:
-  - name: item #Implement Ability Changes
+  - name: item #Turn Limits into Obtainable Items
     type: list
     method: listpatch
     source:
@@ -13,7 +13,7 @@ assets:
 - name: 00battle.bin
   method: binarc
   source:
-  - name: ptya #Implement Ability Changes
+  - name: ptya #Change attack parameters
     type: list
     method: copy
     source:
@@ -49,36 +49,28 @@ assets:
   - name: obj/P_EX100_TR.mdlx
   - name: obj/P_EX100_WI.mdlx
   source:
-  - name: limi #Rework battle levels format to be more easily randomized
+  - name: limi 
     type: Bdx
     method: copy
     source:
     - name: gameplay/limi.bdx
-
+- name: obj/P_EX100.a.us
+  method: binarc
+  multi: 
+  - name: obj/P_EX100_NM.a.us
+  - name: obj/P_EX100_XM.a.us
+  - name: obj/P_EX100_TR.a.us
+  - name: obj/P_EX100_WI.a.us
+  source:
+  - name: p_ex 
+    type: Pax
+    method: copy
+    source:
+    - name: gameplay/limi.pax
 - name: obj\P_EX100.mset
   method: copy
   source:
   - name: gameplay\P_EX100.mset
-- name: obj\P_EX100.a.us
-  method: copy
-  source:
-  - name: gameplay\P_EX100.a.us
-- name: obj\P_EX100_XM.a.us
-  method: copy
-  source:
-  - name: gameplay\P_EX100.a.us
-- name: obj\P_EX100_NM.a.us
-  method: copy
-  source:
-  - name: gameplay\P_EX100.a.us
-- name: obj\P_EX100_WI.a.us
-  method: copy
-  source:
-  - name: gameplay\P_EX100.a.us
-- name: obj\P_EX100_TR.a.us
-  method: copy
-  source:
-  - name: gameplay\P_EX100.a.us
 - name: obj\W_EX010.mset
   method: copy
   source:
