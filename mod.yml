@@ -1,5 +1,5 @@
-title: KH1 MSET Test PatchingTest
-description: Replaces Sora's finishers with ones from Limit Form & grants access to the use of limits in Base form.
+title: Base Limits
+description: Replaces Sora's finishers with ones from Limit Form & grants access to the use of limits like Ars Arcanum in Base form.
 assets:
 - name: 03system.bin
   method: binarc
@@ -40,7 +40,7 @@ assets:
 - name: scripts/DisableLimit.lua
   method: copy
   source:
-  - name: DisableLimit.lua
+  - name: DisableLimit.lua #Script that handles disabling limits during potential crash points, like trying to use them while a Summon is out, in a Drive Form, while in Pridelands, or as Carpet Sora.
 - name: obj/P_EX100.mdlx
   method: binarc
   multi: 
