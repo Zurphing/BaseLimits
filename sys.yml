@@ -1,5 +1,10 @@
 - id: 0x1E60
   en: Reflect Combo
+- id: 0x1E61
+  en: >-
+    Blocks enemy attacks with Guard
+    
+    by pressing {:icon dynamic-square} during a combo.
 - id: 0x398D
   en: (NF) Dodge Slash
 - id: 0x3991
