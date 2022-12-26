@@ -18,7 +18,7 @@ assets:
     method: copy
     source:
       - name: ptya.list
-   - name: atkp #Buff Hurricane Winder
+  - name: atkp #Buff Hurricane Winder
     type: list
     method: copy
     source:
