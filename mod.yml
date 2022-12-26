@@ -18,6 +18,11 @@ assets:
     method: copy
     source:
       - name: ptya.list
+   - name: atkp #Buff Hurricane Winder
+    type: list
+    method: copy
+    source:
+      - name: atkp.list
 - name: msg/jp/sys.bar
   multi:
   - name: msg/us/sys.bar
